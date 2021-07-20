@@ -1,0 +1,6 @@
+framework module Pods_LovooTask_LovooTaskUITests {
+  umbrella header "Pods-LovooTask-LovooTaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

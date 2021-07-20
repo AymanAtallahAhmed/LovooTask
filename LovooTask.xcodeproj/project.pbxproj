@@ -1,0 +1,1054 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0AE68E3E60D31C4BBD7BB11 /* Pods_LovooTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D608439BA7AC51B0C474B8F6 /* Pods_LovooTask.framework */; };
+		C9ABB30B44E5385055EC9429 /* Pods_LovooTask_LovooTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427948362F3C0130FEBA7884 /* Pods_LovooTask_LovooTaskUITests.framework */; };
+		E3C45D91269F96DE0090FB16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45D90269F96DE0090FB16 /* AppDelegate.swift */; };
+		E3C45D9A269F96E50090FB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3C45D99269F96E50090FB16 /* Assets.xcassets */; };
+		E3C45D9D269F96E50090FB16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3C45D9B269F96E50090FB16 /* LaunchScreen.storyboard */; };
+		E3C45DB3269F96E50090FB16 /* LovooTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DB2269F96E50090FB16 /* LovooTaskUITests.swift */; };
+		E3C45DC5269F99270090FB16 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DC4269F99270090FB16 /* NetworkManager.swift */; };
+		E3C45DCA269F9CB90090FB16 /* RoomsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DC8269F9CB90090FB16 /* RoomsVC.swift */; };
+		E3C45DCB269F9CB90090FB16 /* RoomsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C45DC9269F9CB90090FB16 /* RoomsVC.xib */; };
+		E3C45DCF269F9D0C0090FB16 /* RoomsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DCE269F9D0C0090FB16 /* RoomsViewModel.swift */; };
+		E3C45DD2269F9DAB0090FB16 /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DD1269F9DAB0090FB16 /* Room.swift */; };
+		E3C45DD4269FA40B0090FB16 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DD3269FA40B0090FB16 /* UITableView+Extensions.swift */; };
+		E3C45DD7269FA4930090FB16 /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DD5269FA4930090FB16 /* RoomCell.swift */; };
+		E3C45DD8269FA4930090FB16 /* RoomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C45DD6269FA4930090FB16 /* RoomCell.xib */; };
+		E3C45DDE269FE8970090FB16 /* DetailedRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DDC269FE8970090FB16 /* DetailedRoomVC.swift */; };
+		E3C45DDF269FE8970090FB16 /* DetailedRoomVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C45DDD269FE8970090FB16 /* DetailedRoomVC.xib */; };
+		E3C45DE126A082770090FB16 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DE026A082770090FB16 /* UIImageView+Extensions.swift */; };
+		E3C45DE326A0839E0090FB16 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DE226A0839E0090FB16 /* UICollectionView+Extensions.swift */; };
+		E3C45DE826A0BEC90090FB16 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DE626A0BEC90090FB16 /* ImageCell.swift */; };
+		E3C45DE926A0BEC90090FB16 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C45DE726A0BEC90090FB16 /* ImageCell.xib */; };
+		E3C45DEC26A1BF990090FB16 /* LovooTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DEA26A1BF980090FB16 /* LovooTask.xcdatamodeld */; };
+		E3C45DEE26A1DA270090FB16 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DED26A1DA270090FB16 /* CoreDataManager.swift */; };
+		E3C45DF226A200B10090FB16 /* BookRoomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DF026A200B10090FB16 /* BookRoomVC.swift */; };
+		E3C45DF326A200B10090FB16 /* BookRoomVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C45DF126A200B10090FB16 /* BookRoomVC.xib */; };
+		E3C45DF526A20ECB0090FB16 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DF426A20ECB0090FB16 /* UIView+Extensions.swift */; };
+		E3C45DF826A2171F0090FB16 /* BookRoomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DF726A2171F0090FB16 /* BookRoomViewModel.swift */; };
+		E3C45DFB26A3695E0090FB16 /* LVDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DFA26A3695D0090FB16 /* LVDropDownView.swift */; };
+		E3C45DFD26A36A200090FB16 /* LVDropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45DFC26A36A200090FB16 /* LVDropDownButton.swift */; };
+		E3C45E0326A3D9AB0090FB16 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45E0126A3D9AA0090FB16 /* LoginVC.swift */; };
+		E3C45E0426A3D9AB0090FB16 /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3C45E0226A3D9AA0090FB16 /* LoginVC.xib */; };
+		E3C45E0626A3DCA50090FB16 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45E0526A3DCA50090FB16 /* LoginViewModel.swift */; };
+		E3C45E0826A486240090FB16 /* KeyChainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45E0726A486240090FB16 /* KeyChainManager.swift */; };
+		E3C45E0C26A4E14A0090FB16 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45E0B26A4E1490090FB16 /* Navigator.swift */; };
+		E3C45E0E26A4E22B0090FB16 /* UDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45E0D26A4E22B0090FB16 /* UDHelper.swift */; };
+		E3C45E1026A4E2760090FB16 /* LVConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45E0F26A4E2760090FB16 /* LVConstant.swift */; };
+		E3C45E1426A71EE80090FB16 /* RoomStructTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45E1326A71EE80090FB16 /* RoomStructTests.swift */; };
+		E3C45E1726A7481C0090FB16 /* RoomsVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45E1626A7481C0090FB16 /* RoomsVCTests.swift */; };
+		E3C45E1A26A74B910090FB16 /* MockExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45E1926A74B910090FB16 /* MockExtensions.swift */; };
+		E3C45E1D26A75B4E0090FB16 /* RoomCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45E1C26A75B4E0090FB16 /* RoomCellTests.swift */; };
+		EC056CBBA298C95F71532908 /* Pods_LovooTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1679AC681149C8D16971020B /* Pods_LovooTaskTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3C45DA4269F96E50090FB16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3C45D85269F96DE0090FB16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3C45D8C269F96DE0090FB16;
+			remoteInfo = LovooTask;
+		};
+		E3C45DAF269F96E50090FB16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3C45D85269F96DE0090FB16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3C45D8C269F96DE0090FB16;
+			remoteInfo = LovooTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1679AC681149C8D16971020B /* Pods_LovooTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LovooTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E82B3E2AFFB6F8A50888E79 /* Pods-LovooTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovooTask.debug.xcconfig"; path = "Target Support Files/Pods-LovooTask/Pods-LovooTask.debug.xcconfig"; sourceTree = "<group>"; };
+		427948362F3C0130FEBA7884 /* Pods_LovooTask_LovooTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LovooTask_LovooTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65DD8CAC18026C24A39D9CD9 /* Pods-LovooTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovooTaskTests.release.xcconfig"; path = "Target Support Files/Pods-LovooTaskTests/Pods-LovooTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		799D6F31469121D66439C0AA /* Pods-LovooTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovooTask.release.xcconfig"; path = "Target Support Files/Pods-LovooTask/Pods-LovooTask.release.xcconfig"; sourceTree = "<group>"; };
+		C4D356527460816BD555FC01 /* Pods-LovooTask-LovooTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovooTask-LovooTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-LovooTask-LovooTaskUITests/Pods-LovooTask-LovooTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D608439BA7AC51B0C474B8F6 /* Pods_LovooTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LovooTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79987267994359AB39F2585 /* Pods-LovooTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovooTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-LovooTaskTests/Pods-LovooTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC242833C5FED1026B39BED8 /* Pods-LovooTask-LovooTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovooTask-LovooTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-LovooTask-LovooTaskUITests/Pods-LovooTask-LovooTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E3C45D8D269F96DE0090FB16 /* LovooTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LovooTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C45D90269F96DE0090FB16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3C45D99269F96E50090FB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3C45D9C269F96E50090FB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3C45D9E269F96E50090FB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C45DA3269F96E50090FB16 /* LovooTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LovooTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C45DA9269F96E50090FB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C45DAE269F96E50090FB16 /* LovooTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LovooTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3C45DB2269F96E50090FB16 /* LovooTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovooTaskUITests.swift; sourceTree = "<group>"; };
+		E3C45DB4269F96E50090FB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C45DC4269F99270090FB16 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E3C45DC8269F9CB90090FB16 /* RoomsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsVC.swift; sourceTree = "<group>"; };
+		E3C45DC9269F9CB90090FB16 /* RoomsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomsVC.xib; sourceTree = "<group>"; };
+		E3C45DCE269F9D0C0090FB16 /* RoomsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsViewModel.swift; sourceTree = "<group>"; };
+		E3C45DD1269F9DAB0090FB16 /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		E3C45DD3269FA40B0090FB16 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		E3C45DD5269FA4930090FB16 /* RoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
+		E3C45DD6269FA4930090FB16 /* RoomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RoomCell.xib; sourceTree = "<group>"; };
+		E3C45DDC269FE8970090FB16 /* DetailedRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedRoomVC.swift; sourceTree = "<group>"; };
+		E3C45DDD269FE8970090FB16 /* DetailedRoomVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailedRoomVC.xib; sourceTree = "<group>"; };
+		E3C45DE026A082770090FB16 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		E3C45DE226A0839E0090FB16 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		E3C45DE626A0BEC90090FB16 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		E3C45DE726A0BEC90090FB16 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		E3C45DEB26A1BF980090FB16 /* LovooTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LovooTask.xcdatamodel; sourceTree = "<group>"; };
+		E3C45DED26A1DA270090FB16 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		E3C45DF026A200B10090FB16 /* BookRoomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRoomVC.swift; sourceTree = "<group>"; };
+		E3C45DF126A200B10090FB16 /* BookRoomVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookRoomVC.xib; sourceTree = "<group>"; };
+		E3C45DF426A20ECB0090FB16 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		E3C45DF726A2171F0090FB16 /* BookRoomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookRoomViewModel.swift; sourceTree = "<group>"; };
+		E3C45DFA26A3695D0090FB16 /* LVDropDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LVDropDownView.swift; sourceTree = "<group>"; };
+		E3C45DFC26A36A200090FB16 /* LVDropDownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LVDropDownButton.swift; sourceTree = "<group>"; };
+		E3C45E0126A3D9AA0090FB16 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E3C45E0226A3D9AA0090FB16 /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		E3C45E0526A3DCA50090FB16 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E3C45E0726A486240090FB16 /* KeyChainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainManager.swift; sourceTree = "<group>"; };
+		E3C45E0B26A4E1490090FB16 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		E3C45E0D26A4E22B0090FB16 /* UDHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UDHelper.swift; sourceTree = "<group>"; };
+		E3C45E0F26A4E2760090FB16 /* LVConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LVConstant.swift; sourceTree = "<group>"; };
+		E3C45E1326A71EE80090FB16 /* RoomStructTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomStructTests.swift; sourceTree = "<group>"; };
+		E3C45E1626A7481C0090FB16 /* RoomsVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsVCTests.swift; sourceTree = "<group>"; };
+		E3C45E1926A74B910090FB16 /* MockExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExtensions.swift; sourceTree = "<group>"; };
+		E3C45E1C26A75B4E0090FB16 /* RoomCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCellTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3C45D8A269F96DE0090FB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0AE68E3E60D31C4BBD7BB11 /* Pods_LovooTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C45DA0269F96E50090FB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC056CBBA298C95F71532908 /* Pods_LovooTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C45DAB269F96E50090FB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9ABB30B44E5385055EC9429 /* Pods_LovooTask_LovooTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		761374315BEFE27C60F24F15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E82B3E2AFFB6F8A50888E79 /* Pods-LovooTask.debug.xcconfig */,
+				799D6F31469121D66439C0AA /* Pods-LovooTask.release.xcconfig */,
+				DC242833C5FED1026B39BED8 /* Pods-LovooTask-LovooTaskUITests.debug.xcconfig */,
+				C4D356527460816BD555FC01 /* Pods-LovooTask-LovooTaskUITests.release.xcconfig */,
+				D79987267994359AB39F2585 /* Pods-LovooTaskTests.debug.xcconfig */,
+				65DD8CAC18026C24A39D9CD9 /* Pods-LovooTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E11EEBBB77305B5A516FB5AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D608439BA7AC51B0C474B8F6 /* Pods_LovooTask.framework */,
+				427948362F3C0130FEBA7884 /* Pods_LovooTask_LovooTaskUITests.framework */,
+				1679AC681149C8D16971020B /* Pods_LovooTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3C45D84269F96DE0090FB16 = {
+			isa = PBXGroup;
+			children = (
+				E3C45D8F269F96DE0090FB16 /* LovooTask */,
+				E3C45DA6269F96E50090FB16 /* LovooTaskTests */,
+				E3C45DB1269F96E50090FB16 /* LovooTaskUITests */,
+				E3C45D8E269F96DE0090FB16 /* Products */,
+				761374315BEFE27C60F24F15 /* Pods */,
+				E11EEBBB77305B5A516FB5AF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E3C45D8E269F96DE0090FB16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45D8D269F96DE0090FB16 /* LovooTask.app */,
+				E3C45DA3269F96E50090FB16 /* LovooTaskTests.xctest */,
+				E3C45DAE269F96E50090FB16 /* LovooTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3C45D8F269F96DE0090FB16 /* LovooTask */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45E1F26A776460090FB16 /* Core */,
+				E3C45E1E26A7760F0090FB16 /* Utilities */,
+				E3C45DC1269F98C70090FB16 /* Extensions */,
+				E3C45DC2269F98D60090FB16 /* Managers */,
+				E3C45DD0269F9D9B0090FB16 /* Models */,
+				E3C45DC3269F98F10090FB16 /* Scenes */,
+				E3C45DC0269F98AF0090FB16 /* Common */,
+				E3C45D9E269F96E50090FB16 /* Info.plist */,
+			);
+			path = LovooTask;
+			sourceTree = "<group>";
+		};
+		E3C45DA6269F96E50090FB16 /* LovooTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45E1B26A75B0D0090FB16 /* Test Views */,
+				E3C45E1826A74B520090FB16 /* Mocks */,
+				E3C45E1526A747BF0090FB16 /* Test Controllers */,
+				E3C45E1226A71EBB0090FB16 /* Test Models */,
+				E3C45DA9269F96E50090FB16 /* Info.plist */,
+			);
+			path = LovooTaskTests;
+			sourceTree = "<group>";
+		};
+		E3C45DB1269F96E50090FB16 /* LovooTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45DB2269F96E50090FB16 /* LovooTaskUITests.swift */,
+				E3C45DB4269F96E50090FB16 /* Info.plist */,
+			);
+			path = LovooTaskUITests;
+			sourceTree = "<group>";
+		};
+		E3C45DC0269F98AF0090FB16 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45D90269F96DE0090FB16 /* AppDelegate.swift */,
+				E3C45D99269F96E50090FB16 /* Assets.xcassets */,
+				E3C45D9B269F96E50090FB16 /* LaunchScreen.storyboard */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E3C45DC1269F98C70090FB16 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45DD3269FA40B0090FB16 /* UITableView+Extensions.swift */,
+				E3C45DE026A082770090FB16 /* UIImageView+Extensions.swift */,
+				E3C45DE226A0839E0090FB16 /* UICollectionView+Extensions.swift */,
+				E3C45DF426A20ECB0090FB16 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E3C45DC2269F98D60090FB16 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45DC4269F99270090FB16 /* NetworkManager.swift */,
+				E3C45DED26A1DA270090FB16 /* CoreDataManager.swift */,
+				E3C45E0726A486240090FB16 /* KeyChainManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		E3C45DC3269F98F10090FB16 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45DFE26A3D6BD0090FB16 /* Log In */,
+				E3C45DEF26A1FFEF0090FB16 /* Book Room */,
+				E3C45DD9269FE8520090FB16 /* Detailed Room */,
+				E3C45DC7269F9C540090FB16 /* Rooms */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E3C45DC7269F9C540090FB16 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45DCD269F9CCB0090FB16 /* viewModel */,
+				E3C45DCC269F9CC40090FB16 /* view */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		E3C45DCC269F9CC40090FB16 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45DC8269F9CB90090FB16 /* RoomsVC.swift */,
+				E3C45DC9269F9CB90090FB16 /* RoomsVC.xib */,
+				E3C45DD5269FA4930090FB16 /* RoomCell.swift */,
+				E3C45DD6269FA4930090FB16 /* RoomCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E3C45DCD269F9CCB0090FB16 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45DCE269F9D0C0090FB16 /* RoomsViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		E3C45DD0269F9D9B0090FB16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45DD1269F9DAB0090FB16 /* Room.swift */,
+				E3C45DEA26A1BF980090FB16 /* LovooTask.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E3C45DD9269FE8520090FB16 /* Detailed Room */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45DDA269FE8690090FB16 /* view */,
+			);
+			path = "Detailed Room";
+			sourceTree = "<group>";
+		};
+		E3C45DDA269FE8690090FB16 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45DDC269FE8970090FB16 /* DetailedRoomVC.swift */,
+				E3C45DDD269FE8970090FB16 /* DetailedRoomVC.xib */,
+				E3C45DE626A0BEC90090FB16 /* ImageCell.swift */,
+				E3C45DE726A0BEC90090FB16 /* ImageCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E3C45DEF26A1FFEF0090FB16 /* Book Room */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45E1126A65AAE0090FB16 /* view */,
+				E3C45DF626A2170A0090FB16 /* viewModel */,
+			);
+			path = "Book Room";
+			sourceTree = "<group>";
+		};
+		E3C45DF626A2170A0090FB16 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45DF726A2171F0090FB16 /* BookRoomViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		E3C45DF926A3694A0090FB16 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45DFA26A3695D0090FB16 /* LVDropDownView.swift */,
+				E3C45DFC26A36A200090FB16 /* LVDropDownButton.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E3C45DFE26A3D6BD0090FB16 /* Log In */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45E0026A3D98B0090FB16 /* viewModel */,
+				E3C45DFF26A3D9780090FB16 /* view */,
+			);
+			path = "Log In";
+			sourceTree = "<group>";
+		};
+		E3C45DFF26A3D9780090FB16 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45E0126A3D9AA0090FB16 /* LoginVC.swift */,
+				E3C45E0226A3D9AA0090FB16 /* LoginVC.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E3C45E0026A3D98B0090FB16 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45E0526A3DCA50090FB16 /* LoginViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		E3C45E1126A65AAE0090FB16 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45DF026A200B10090FB16 /* BookRoomVC.swift */,
+				E3C45DF126A200B10090FB16 /* BookRoomVC.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E3C45E1226A71EBB0090FB16 /* Test Models */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45E1326A71EE80090FB16 /* RoomStructTests.swift */,
+			);
+			path = "Test Models";
+			sourceTree = "<group>";
+		};
+		E3C45E1526A747BF0090FB16 /* Test Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45E1626A7481C0090FB16 /* RoomsVCTests.swift */,
+			);
+			path = "Test Controllers";
+			sourceTree = "<group>";
+		};
+		E3C45E1826A74B520090FB16 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45E1926A74B910090FB16 /* MockExtensions.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		E3C45E1B26A75B0D0090FB16 /* Test Views */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45E1C26A75B4E0090FB16 /* RoomCellTests.swift */,
+			);
+			path = "Test Views";
+			sourceTree = "<group>";
+		};
+		E3C45E1E26A7760F0090FB16 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45E0B26A4E1490090FB16 /* Navigator.swift */,
+				E3C45E0D26A4E22B0090FB16 /* UDHelper.swift */,
+				E3C45E0F26A4E2760090FB16 /* LVConstant.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E3C45E1F26A776460090FB16 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E3C45DF926A3694A0090FB16 /* view */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3C45D8C269F96DE0090FB16 /* LovooTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C45DB7269F96E50090FB16 /* Build configuration list for PBXNativeTarget "LovooTask" */;
+			buildPhases = (
+				9E6077126775A274D0A0CA04 /* [CP] Check Pods Manifest.lock */,
+				E3C45D89269F96DE0090FB16 /* Sources */,
+				E3C45D8A269F96DE0090FB16 /* Frameworks */,
+				E3C45D8B269F96DE0090FB16 /* Resources */,
+				016F4190346BAF094759C5E0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LovooTask;
+			productName = LovooTask;
+			productReference = E3C45D8D269F96DE0090FB16 /* LovooTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3C45DA2269F96E50090FB16 /* LovooTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C45DBA269F96E50090FB16 /* Build configuration list for PBXNativeTarget "LovooTaskTests" */;
+			buildPhases = (
+				4A751BEBD30E8078CD5B1EBC /* [CP] Check Pods Manifest.lock */,
+				E3C45D9F269F96E50090FB16 /* Sources */,
+				E3C45DA0269F96E50090FB16 /* Frameworks */,
+				E3C45DA1269F96E50090FB16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3C45DA5269F96E50090FB16 /* PBXTargetDependency */,
+			);
+			name = LovooTaskTests;
+			productName = LovooTaskTests;
+			productReference = E3C45DA3269F96E50090FB16 /* LovooTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3C45DAD269F96E50090FB16 /* LovooTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3C45DBD269F96E50090FB16 /* Build configuration list for PBXNativeTarget "LovooTaskUITests" */;
+			buildPhases = (
+				1D18ABD7FADF4B3CB465CDD8 /* [CP] Check Pods Manifest.lock */,
+				E3C45DAA269F96E50090FB16 /* Sources */,
+				E3C45DAB269F96E50090FB16 /* Frameworks */,
+				E3C45DAC269F96E50090FB16 /* Resources */,
+				5AED4E92F660803D6059B0B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3C45DB0269F96E50090FB16 /* PBXTargetDependency */,
+			);
+			name = LovooTaskUITests;
+			productName = LovooTaskUITests;
+			productReference = E3C45DAE269F96E50090FB16 /* LovooTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3C45D85269F96DE0090FB16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Ayman Ata";
+				TargetAttributes = {
+					E3C45D8C269F96DE0090FB16 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					E3C45DA2269F96E50090FB16 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = E3C45D8C269F96DE0090FB16;
+					};
+					E3C45DAD269F96E50090FB16 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = E3C45D8C269F96DE0090FB16;
+					};
+				};
+			};
+			buildConfigurationList = E3C45D88269F96DE0090FB16 /* Build configuration list for PBXProject "LovooTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3C45D84269F96DE0090FB16;
+			productRefGroup = E3C45D8E269F96DE0090FB16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3C45D8C269F96DE0090FB16 /* LovooTask */,
+				E3C45DA2269F96E50090FB16 /* LovooTaskTests */,
+				E3C45DAD269F96E50090FB16 /* LovooTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3C45D8B269F96DE0090FB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C45D9D269F96E50090FB16 /* LaunchScreen.storyboard in Resources */,
+				E3C45D9A269F96E50090FB16 /* Assets.xcassets in Resources */,
+				E3C45DD8269FA4930090FB16 /* RoomCell.xib in Resources */,
+				E3C45DE926A0BEC90090FB16 /* ImageCell.xib in Resources */,
+				E3C45DDF269FE8970090FB16 /* DetailedRoomVC.xib in Resources */,
+				E3C45DF326A200B10090FB16 /* BookRoomVC.xib in Resources */,
+				E3C45E0426A3D9AB0090FB16 /* LoginVC.xib in Resources */,
+				E3C45DCB269F9CB90090FB16 /* RoomsVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C45DA1269F96E50090FB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C45DAC269F96E50090FB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		016F4190346BAF094759C5E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LovooTask/Pods-LovooTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LovooTask/Pods-LovooTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LovooTask/Pods-LovooTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D18ABD7FADF4B3CB465CDD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LovooTask-LovooTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A751BEBD30E8078CD5B1EBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LovooTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AED4E92F660803D6059B0B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LovooTask-LovooTaskUITests/Pods-LovooTask-LovooTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LovooTask-LovooTaskUITests/Pods-LovooTask-LovooTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LovooTask-LovooTaskUITests/Pods-LovooTask-LovooTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E6077126775A274D0A0CA04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LovooTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3C45D89269F96DE0090FB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C45DC5269F99270090FB16 /* NetworkManager.swift in Sources */,
+				E3C45DDE269FE8970090FB16 /* DetailedRoomVC.swift in Sources */,
+				E3C45DE326A0839E0090FB16 /* UICollectionView+Extensions.swift in Sources */,
+				E3C45E1026A4E2760090FB16 /* LVConstant.swift in Sources */,
+				E3C45DF226A200B10090FB16 /* BookRoomVC.swift in Sources */,
+				E3C45DCA269F9CB90090FB16 /* RoomsVC.swift in Sources */,
+				E3C45E0C26A4E14A0090FB16 /* Navigator.swift in Sources */,
+				E3C45DFB26A3695E0090FB16 /* LVDropDownView.swift in Sources */,
+				E3C45DF526A20ECB0090FB16 /* UIView+Extensions.swift in Sources */,
+				E3C45DEC26A1BF990090FB16 /* LovooTask.xcdatamodeld in Sources */,
+				E3C45DE826A0BEC90090FB16 /* ImageCell.swift in Sources */,
+				E3C45DE126A082770090FB16 /* UIImageView+Extensions.swift in Sources */,
+				E3C45DFD26A36A200090FB16 /* LVDropDownButton.swift in Sources */,
+				E3C45D91269F96DE0090FB16 /* AppDelegate.swift in Sources */,
+				E3C45DD7269FA4930090FB16 /* RoomCell.swift in Sources */,
+				E3C45E0326A3D9AB0090FB16 /* LoginVC.swift in Sources */,
+				E3C45E0826A486240090FB16 /* KeyChainManager.swift in Sources */,
+				E3C45DD4269FA40B0090FB16 /* UITableView+Extensions.swift in Sources */,
+				E3C45DF826A2171F0090FB16 /* BookRoomViewModel.swift in Sources */,
+				E3C45DCF269F9D0C0090FB16 /* RoomsViewModel.swift in Sources */,
+				E3C45E0E26A4E22B0090FB16 /* UDHelper.swift in Sources */,
+				E3C45DEE26A1DA270090FB16 /* CoreDataManager.swift in Sources */,
+				E3C45DD2269F9DAB0090FB16 /* Room.swift in Sources */,
+				E3C45E0626A3DCA50090FB16 /* LoginViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C45D9F269F96E50090FB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C45E1426A71EE80090FB16 /* RoomStructTests.swift in Sources */,
+				E3C45E1726A7481C0090FB16 /* RoomsVCTests.swift in Sources */,
+				E3C45E1D26A75B4E0090FB16 /* RoomCellTests.swift in Sources */,
+				E3C45E1A26A74B910090FB16 /* MockExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C45DAA269F96E50090FB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C45DB3269F96E50090FB16 /* LovooTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3C45DA5269F96E50090FB16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3C45D8C269F96DE0090FB16 /* LovooTask */;
+			targetProxy = E3C45DA4269F96E50090FB16 /* PBXContainerItemProxy */;
+		};
+		E3C45DB0269F96E50090FB16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3C45D8C269F96DE0090FB16 /* LovooTask */;
+			targetProxy = E3C45DAF269F96E50090FB16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3C45D9B269F96E50090FB16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3C45D9C269F96E50090FB16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3C45DB5269F96E50090FB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3C45DB6269F96E50090FB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3C45DB8269F96E50090FB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E82B3E2AFFB6F8A50888E79 /* Pods-LovooTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8S37KFRLW;
+				INFOPLIST_FILE = LovooTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AymanAta.LovooTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3C45DB9269F96E50090FB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 799D6F31469121D66439C0AA /* Pods-LovooTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8S37KFRLW;
+				INFOPLIST_FILE = LovooTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AymanAta.LovooTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3C45DBB269F96E50090FB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D79987267994359AB39F2585 /* Pods-LovooTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8S37KFRLW;
+				INFOPLIST_FILE = LovooTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AymanAta.LovooTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LovooTask.app/LovooTask";
+			};
+			name = Debug;
+		};
+		E3C45DBC269F96E50090FB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65DD8CAC18026C24A39D9CD9 /* Pods-LovooTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8S37KFRLW;
+				INFOPLIST_FILE = LovooTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AymanAta.LovooTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LovooTask.app/LovooTask";
+			};
+			name = Release;
+		};
+		E3C45DBE269F96E50090FB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC242833C5FED1026B39BED8 /* Pods-LovooTask-LovooTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8S37KFRLW;
+				INFOPLIST_FILE = LovooTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AymanAta.LovooTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LovooTask;
+			};
+			name = Debug;
+		};
+		E3C45DBF269F96E50090FB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D356527460816BD555FC01 /* Pods-LovooTask-LovooTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8S37KFRLW;
+				INFOPLIST_FILE = LovooTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AymanAta.LovooTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LovooTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3C45D88269F96DE0090FB16 /* Build configuration list for PBXProject "LovooTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C45DB5269F96E50090FB16 /* Debug */,
+				E3C45DB6269F96E50090FB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C45DB7269F96E50090FB16 /* Build configuration list for PBXNativeTarget "LovooTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C45DB8269F96E50090FB16 /* Debug */,
+				E3C45DB9269F96E50090FB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C45DBA269F96E50090FB16 /* Build configuration list for PBXNativeTarget "LovooTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C45DBB269F96E50090FB16 /* Debug */,
+				E3C45DBC269F96E50090FB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3C45DBD269F96E50090FB16 /* Build configuration list for PBXNativeTarget "LovooTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3C45DBE269F96E50090FB16 /* Debug */,
+				E3C45DBF269F96E50090FB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E3C45DEA26A1BF980090FB16 /* LovooTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E3C45DEB26A1BF980090FB16 /* LovooTask.xcdatamodel */,
+			);
+			currentVersion = E3C45DEB26A1BF980090FB16 /* LovooTask.xcdatamodel */;
+			path = LovooTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E3C45D85269F96DE0090FB16 /* Project object */;
+}
