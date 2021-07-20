@@ -15,3 +15,4 @@ class LVConstant {
     static let allDeparts = "All Departs"
     static let allTypes = "All Types"
 }
+

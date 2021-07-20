@@ -26,8 +26,6 @@ class NetworkManager {
                 let url = URL(string: self.endPoint) else {
                 return Disposables.create()
             }
-//            let headers: HTTPHeaders = [.authorization(username: "lovooTrialUser",
-//                                                       password: "lovoo#2021")]
             
             _ = json(method,
                      url,
