@@ -39,6 +39,7 @@ class BookRoomVC: UIViewController {
         viewModel.fetchData(for: room.id ?? "")
         bind()
         setupUI()
+        setStatusBar(color: .systemPurple)
     }
     
     private func setupUI() {

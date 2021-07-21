@@ -46,6 +46,7 @@
 		E3C45E1726A7481C0090FB16 /* RoomsVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45E1626A7481C0090FB16 /* RoomsVCTests.swift */; };
 		E3C45E1A26A74B910090FB16 /* MockExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45E1926A74B910090FB16 /* MockExtensions.swift */; };
 		E3C45E1D26A75B4E0090FB16 /* RoomCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45E1C26A75B4E0090FB16 /* RoomCellTests.swift */; };
+		E3C45E2126A7CB6C0090FB16 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C45E2026A7CB6C0090FB16 /* UIViewController+Extensions.swift */; };
 		EC056CBBA298C95F71532908 /* Pods_LovooTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1679AC681149C8D16971020B /* Pods_LovooTaskTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -119,6 +120,7 @@
 		E3C45E1626A7481C0090FB16 /* RoomsVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomsVCTests.swift; sourceTree = "<group>"; };
 		E3C45E1926A74B910090FB16 /* MockExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExtensions.swift; sourceTree = "<group>"; };
 		E3C45E1C26A75B4E0090FB16 /* RoomCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCellTests.swift; sourceTree = "<group>"; };
+		E3C45E2026A7CB6C0090FB16 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +249,7 @@
 				E3C45DE026A082770090FB16 /* UIImageView+Extensions.swift */,
 				E3C45DE226A0839E0090FB16 /* UICollectionView+Extensions.swift */,
 				E3C45DF426A20ECB0090FB16 /* UIView+Extensions.swift */,
+				E3C45E2026A7CB6C0090FB16 /* UIViewController+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -695,6 +698,7 @@
 				E3C45DEC26A1BF990090FB16 /* LovooTask.xcdatamodeld in Sources */,
 				E3C45DE826A0BEC90090FB16 /* ImageCell.swift in Sources */,
 				E3C45DE126A082770090FB16 /* UIImageView+Extensions.swift in Sources */,
+				E3C45E2126A7CB6C0090FB16 /* UIViewController+Extensions.swift in Sources */,
 				E3C45DFD26A36A200090FB16 /* LVDropDownButton.swift in Sources */,
 				E3C45D91269F96DE0090FB16 /* AppDelegate.swift in Sources */,
 				E3C45DD7269FA4930090FB16 /* RoomCell.swift in Sources */,

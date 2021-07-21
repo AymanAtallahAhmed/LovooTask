@@ -36,6 +36,7 @@ class RoomsVC: UIViewController, UIScrollViewDelegate {
         setupRightBarButton()
         setupTableView()
         navigationItem.title = "Rooms"
+        setStatusBar(color: .systemPurple)
         setupOptionButtons()
         bind()
     }
@@ -68,6 +69,7 @@ class RoomsVC: UIViewController, UIScrollViewDelegate {
         tableView.rowHeight = 125
         
         headerView.frame = CGRect.init(x: 0, y: 0, width: tableView.frame.width, height: 70)
+        headerView.backgroundColor = .systemBackground
         tableView.tableHeaderView = headerView
         
         tableView.rx.modelSelected(Room.self)
