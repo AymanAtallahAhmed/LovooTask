@@ -67,7 +67,7 @@ class DetailedRoomVC: UIViewController, UIScrollViewDelegate {
         collectionView.registerNIB(ImageCell.self)
         
         images.bind(to: collectionView.rx
-            .items(cellIdentifier: String(describing: ImageCell.self), cellType: ImageCell.self)) { index, model, cell in
+            .items(cellIdentifier: String(describing: ImageCell.self), cellType: ImageCell.self)) { [weak self] index, model, cell in
             cell.imageView.setImageWith(url: model)
             cell.imageViewDidTap = { [weak self] imageView in
                 self?.animate(imageView: imageView)
